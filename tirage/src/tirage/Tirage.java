@@ -124,7 +124,7 @@ public class Tirage {
 
 	private void sendMail(String email, StringBuffer text) {
 		final String username = "cebullo@gmail.com";
-		final String password = "oci6edru";
+		final String password = "";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
@@ -170,7 +170,7 @@ public class Tirage {
 				new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {
 						return new PasswordAuthentication("cebullo@gmail.com",
-								"oci6edru");
+								"");
 					}
 				});
 
