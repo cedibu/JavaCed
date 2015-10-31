@@ -47,9 +47,6 @@ public class Tirage {
 				sb.append("A très vite ! Bisous bisous !!!!!!!!!!!!!");
 
 				sendMailSSL(email, sb);
-				// System.out.println(sb.toString());
-				// System.out.println(
-				// "----------------------------------------------------------------------------------------------------------------------------------------------------------");
 			}
 		}
 	}
